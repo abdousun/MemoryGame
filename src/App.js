@@ -3,7 +3,6 @@ import './App.css';
 import Carte from './Carte';
 
 const gameImages = [
-  // Liste des images
   { "src": "/Img/anguler.png" },
   { "src": "/Img/c1.png" },
   { "src": "/Img/c++.png" },
@@ -171,7 +170,7 @@ function App() {
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.8)", // Fond sombre semi-transparent
+          backgroundColor: "rgba(0, 0, 0, 0.8)", 
           zIndex: 1,
         }}
       ></div>
